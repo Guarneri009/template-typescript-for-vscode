@@ -45,7 +45,7 @@ ENV TZ=Asia/Tokyo
 
 WORKDIR /opt
 
-#EXPOSE 3000
+EXPOSE 5500
 
 RUN     apt-get update && \
         apt-get install -y --no-install-recommends\

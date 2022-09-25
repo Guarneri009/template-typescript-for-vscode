@@ -10,6 +10,7 @@ services:
     ports:
       - 5500:5500
       - 8080:8080
+      - 80:80
     volumes:
       # for linx or use windows docker desktop
       - ~/.ssh:/home/node/.ssh:cached
