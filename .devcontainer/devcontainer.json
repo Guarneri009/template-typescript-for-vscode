@@ -1,0 +1,11 @@
+{
+	"name": "typescript",
+	"workspaceFolder": "/home/node/workspace",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "typescript",
+	"extensions": [
+		"mhutchie.git-graph",
+		"oderwat.indent-rainbow",
+		"ritwickdey.LiveServer",
+	]
+}

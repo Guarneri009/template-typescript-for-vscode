@@ -1,0 +1,16 @@
+version: "3"
+services:
+  typescript:
+    env_file: .env
+    #image: node:slim
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    ports:
+      - 5500:5500
+      - 8080:8080
+    volumes:
+      # for linx or use windows docker desktop
+      - ~/.ssh:/home/node/.ssh:cached
+      - ..:/home/node/workspace:cached
